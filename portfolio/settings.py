@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure--&#6uz9he19$d1q@3q-syd_4&8dsn%(=etj(n!zyvas*c23ml^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['chimaobiwisdom.onrender.com']
 
 
 # Application definition
@@ -120,7 +120,7 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media_root/')
-STATIC_ROOT = os.path.join(BASE_DIR, 'static_root/')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_DIRS = [
     BASE_DIR / "static",
